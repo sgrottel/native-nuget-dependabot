@@ -12,7 +12,7 @@ updates:
 
   # projects nugets
   - package-ecosystem: "nuget"
-    directory: "/GlobalHotKeys"
+    directory: "tiny-tools/GlobalHotKeys"
     schedule:
       interval: "daily"
     open-pull-requests-limit: 10
