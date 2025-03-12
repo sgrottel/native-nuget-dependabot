@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- open-here ToolboxLib -->
+  <!-- https://github.com/sgrottel/open-here -->
+  <PropertyGroup>
+    <TargetFramework>native</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="nlohmann.json" Version="3.11.2" />
+  </ItemGroup>
+</Project>

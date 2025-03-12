@@ -35,9 +35,13 @@ It also supports `<file.csproj>`.
 
 This script does not commit changes or push changes.
 
-Example:
+Examples:
 ```ps
 .\Set-Project.ps1 -projFile "C:\Dev\tiny-tools\ToggleDisplay\ToggleDisplay.vcxproj" -group "tiny-tools" -name "ToggleDisplay" -info "https://github.com/sgrottel/tiny-tools-collection"
+
+.\Set-Project.ps1 -projFile "C:\Dev\tiny-tools\GlobalHotKeys\GlobalHotKeys.vcxproj" -group "tiny-tools" -name "GlobalHotKeys" -info "https://github.com/sgrottel/tiny-tools-collection"
+
+.\Set-Project.ps1 -projFile "C:\Dev\open-here\ToolboxLib\ToolboxLib.vcxproj" -group "open-here" -name "ToolboxLib" -info "https://github.com/sgrottel/open-here"
 ```
 
 ### Update.ps1
