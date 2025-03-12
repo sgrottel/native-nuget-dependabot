@@ -22,8 +22,8 @@ Of course, you can have a look to get inspirations and copies for your own solut
 This script adds a project to this repository.
 
 Invoke:
-```ps
-.\Set-Project.ps1 "<group>" "<name>" "<file.vcxproj>" ["<info>"]
+```
+.\Set-Project.ps1 <group> <name> <file.vcxproj> [<info>]
 ```
 
 It also supports `<file.csproj>`.
@@ -50,7 +50,7 @@ This script is automatically triggered by github action CI on changes on the mai
 It will update all structural files of this repository, esp. the github action configuration of Dependabot.
 
 Invoke:
-```ps
+```
 .\Update.ps1
 ```
 
