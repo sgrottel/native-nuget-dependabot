@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- tiny-tools ToggleDisplay -->
+  <!-- https://github.com/sgrottel/tiny-tools-collection -->
+  <PropertyGroup>
+    <TargetFramework>native</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SGrottel.SimpleLog.Cpp" Version="2.2.0" />
+    <PackageReference Include="SGrottel.yaclap" Version="0.3.0" />
+  </ItemGroup>
+</Project>

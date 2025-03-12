@@ -1,0 +1,29 @@
+#
+# Update Github action workflow
+# Updating repository content if needed
+#
+name: Update config
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - working-directory: ${{env.GITHUB_WORKSPACE}}
+      shell: pwsh
+      run: ./Update.ps1
+
+    - name: Commit updated files
+      run: |
+        git config --global user.name 'sgrottel'
+        git config --global user.email 'sgrottel@users.noreply.github.com'
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+        git checkout "${GITHUB_REF:11}"
+        git commit -am "Updated repository configuration files"
+        git push
