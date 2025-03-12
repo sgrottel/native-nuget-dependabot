@@ -23,7 +23,7 @@ This script adds a project to this repository.
 
 Invoke:
 ```ps
-.\Set-Project.ps1 <group> <name> <file.vcxproj> [<info>]
+.\Set-Project.ps1 "<group>" "<name>" "<file.vcxproj>" ["<info>"]
 ```
 
 It also supports `<file.csproj>`.
