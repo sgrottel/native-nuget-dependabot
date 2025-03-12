@@ -14,5 +14,6 @@ updates:
   - package-ecosystem: "nuget"
     directory: "tiny-tools/GlobalHotKeys"
     schedule:
-      interval: "daily"
+      interval: "weekly"
+      day: "saturday"
     open-pull-requests-limit: 10
