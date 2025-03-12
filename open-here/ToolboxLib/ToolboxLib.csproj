@@ -5,6 +5,6 @@
     <TargetFramework>native</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="nlohmann.json" Version="3.11.2" />
+    <PackageReference Include="nlohmann.json" Version="3.11.3" />
   </ItemGroup>
 </Project>
