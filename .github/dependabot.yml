@@ -18,6 +18,12 @@ updates:
       day: "saturday"
     open-pull-requests-limit: 10
   - package-ecosystem: "nuget"
+    directory: "GetGallery/GetGallery"
+    schedule:
+      interval: "weekly"
+      day: "saturday"
+    open-pull-requests-limit: 10
+  - package-ecosystem: "nuget"
     directory: "open-here/ToolboxLib"
     schedule:
       interval: "weekly"
