@@ -12,7 +12,7 @@ updates:
     open-pull-requests-limit: 10
   # project nugets
   - package-ecosystem: "nuget"
-    directory: "Afuu/Afuu"
+    directory: "Chihaya/Afuu"
     schedule:
       interval: "weekly"
       day: "saturday"
