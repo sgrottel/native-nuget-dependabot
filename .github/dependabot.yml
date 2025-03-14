@@ -12,6 +12,12 @@ updates:
     open-pull-requests-limit: 10
   # project nugets
   - package-ecosystem: "nuget"
+    directory: "Afuu/Afuu"
+    schedule:
+      interval: "weekly"
+      day: "saturday"
+    open-pull-requests-limit: 10
+  - package-ecosystem: "nuget"
     directory: "open-here/ToolboxLib"
     schedule:
       interval: "weekly"
