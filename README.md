@@ -1,8 +1,8 @@
 # Native Nuget Dependabot
 Proxy project repository to use Dependabot for Nuget packages in native Cpp projects, incl. private projects, for update reports.
 
-![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-pr/sgrottel/native-nuget-dependabot)
-![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/sgrottel/native-nuget-dependabot)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/sgrottel/native-nuget-dependabot)](https://github.com/sgrottel/native-nuget-dependabot/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/sgrottel/native-nuget-dependabot)](https://github.com/sgrottel/native-nuget-dependabot/issues)
 [![Update config](https://github.com/sgrottel/native-nuget-dependabot/actions/workflows/update.yml/badge.svg)](https://github.com/sgrottel/native-nuget-dependabot/actions/workflows/update.yml)
 
 This repository holds synthetic `csproj` files with Nuget dependencies mirrored from other projects, either in private or offline projects, or in native Cpp code `vcxproj` projects.
