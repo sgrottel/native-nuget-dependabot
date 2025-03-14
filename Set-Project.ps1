@@ -31,8 +31,8 @@ function LoadVCXProj {
 }
 
 function LoadCSProj {
-    $targetFramework = (Select-Xml -Path "C:\Dev\Afuu\Afuu.csproj" -XPath "/Project/PropertyGroup/TargetFramework" | ForEach-Object { $_.Node.InnerText } | Select-Object -Unique -First 1 | Out-String).Trim()
-    $infos = Select-Xml -Path "C:\Dev\Afuu\Afuu.csproj" -XPath "/Project/ItemGroup/PackageReference" | Select-Object -ExpandProperty Node | Foreach-Object { @{id=$_.Include;version=$_.Version;targetFramework=$targetFramework} }
+    $targetFramework = (Select-Xml -Path $projFile -XPath "/Project/PropertyGroup/TargetFramework" | ForEach-Object { $_.Node.InnerText } | Select-Object -Unique -First 1 | Out-String).Trim()
+    $infos = Select-Xml -Path $projFile -XPath "/Project/ItemGroup/PackageReference" | Select-Object -ExpandProperty Node | Foreach-Object { @{id=$_.Include;version=$_.Version;targetFramework=$targetFramework} }
     return $infos
 }
 
