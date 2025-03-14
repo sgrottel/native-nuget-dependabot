@@ -31,7 +31,9 @@ function LoadVCXProj {
 }
 
 function LoadCSProj {
-    Write-Error "Not Implemented"
+    $targetFramework = (Select-Xml -Path "C:\Dev\Afuu\Afuu.csproj" -XPath "/Project/PropertyGroup/TargetFramework" | ForEach-Object { $_.Node.InnerText } | Select-Object -Unique -First 1 | Out-String).Trim()
+    $infos = Select-Xml -Path "C:\Dev\Afuu\Afuu.csproj" -XPath "/Project/ItemGroup/PackageReference" | Select-Object -ExpandProperty Node | Foreach-Object { @{id=$_.Include;version=$_.Version;targetFramework=$targetFramework} }
+    return $infos
 }
 
 switch ($projFile.Extension.ToLowerInvariant()) {
