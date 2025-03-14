@@ -53,7 +53,11 @@ if ($packages -isnot [System.Array])
 
 $framework = "native"
 $frameworks = $packages | Select-Object -ExpandProperty targetFramework -Unique
-if ($frameworks -is [System.Array])
+if ($frameworks -is [System.String])
+{
+    $framework = $frameworks
+}
+elseif ($frameworks -is [System.Array])
 {
     if ($frameworks.Length -eq 1)
     {
