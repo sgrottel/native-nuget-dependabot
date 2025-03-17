@@ -59,3 +59,9 @@ updates:
       interval: "weekly"
       day: "saturday"
     open-pull-requests-limit: 10
+  - package-ecosystem: "nuget"
+    directory: "Web/Sync/SyncApp"
+    schedule:
+      interval: "weekly"
+      day: "saturday"
+    open-pull-requests-limit: 10
