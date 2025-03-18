@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- open-here ConsoleApp -->
+  <!-- https://github.com/sgrottel/open-here -->
+  <PropertyGroup>
+    <TargetFramework>native</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SGrottel.yaclap" Version="0.3.2" />
+  </ItemGroup>
+</Project>
