@@ -42,6 +42,60 @@ updates:
       day: "saturday"
     open-pull-requests-limit: 10
   - package-ecosystem: "nuget"
+    directory: "myh/FeedC/Common"
+    schedule:
+      interval: "weekly"
+      day: "saturday"
+    open-pull-requests-limit: 10
+  - package-ecosystem: "nuget"
+    directory: "myh/FeedC/PageC"
+    schedule:
+      interval: "weekly"
+      day: "saturday"
+    open-pull-requests-limit: 10
+  - package-ecosystem: "nuget"
+    directory: "myh/FeedC/VGSearch"
+    schedule:
+      interval: "weekly"
+      day: "saturday"
+    open-pull-requests-limit: 10
+  - package-ecosystem: "nuget"
+    directory: "myh/Overview/App"
+    schedule:
+      interval: "weekly"
+      day: "saturday"
+    open-pull-requests-limit: 10
+  - package-ecosystem: "nuget"
+    directory: "myh/Overview/LibBase"
+    schedule:
+      interval: "weekly"
+      day: "saturday"
+    open-pull-requests-limit: 10
+  - package-ecosystem: "nuget"
+    directory: "myh/Overview/LibDiskScan"
+    schedule:
+      interval: "weekly"
+      day: "saturday"
+    open-pull-requests-limit: 10
+  - package-ecosystem: "nuget"
+    directory: "myh/Overview/LibToDoBoard"
+    schedule:
+      interval: "weekly"
+      day: "saturday"
+    open-pull-requests-limit: 10
+  - package-ecosystem: "nuget"
+    directory: "myh/Overview/QueryApp"
+    schedule:
+      interval: "weekly"
+      day: "saturday"
+    open-pull-requests-limit: 10
+  - package-ecosystem: "nuget"
+    directory: "myh/Wallpaper"
+    schedule:
+      interval: "weekly"
+      day: "saturday"
+    open-pull-requests-limit: 10
+  - package-ecosystem: "nuget"
     directory: "open-here/ConsoleApp"
     schedule:
       interval: "weekly"
