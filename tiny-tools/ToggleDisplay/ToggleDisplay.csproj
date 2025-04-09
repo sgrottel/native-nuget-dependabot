@@ -6,6 +6,6 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="SGrottel.SimpleLog.Cpp" Version="3.2.0" />
-    <PackageReference Include="SGrottel.yaclap" Version="0.3.2" />
+    <PackageReference Include="SGrottel.yaclap" Version="0.3.3" />
   </ItemGroup>
 </Project>
