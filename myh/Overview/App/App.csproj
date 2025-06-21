@@ -6,7 +6,7 @@
   <ItemGroup>
     <PackageReference Include="HtmlAgilityPack" Version="1.12.1" />
     <PackageReference Include="SGrottel.ConProgBar.CSharp" Version="1.0.0" />
-    <PackageReference Include="SGrottel.SimpleLog.CSharp" Version="3.2.0" />
+    <PackageReference Include="SGrottel.SimpleLog.CSharp" Version="3.3.0" />
     <PackageReference Include="YamlDotNet" Version="16.3.0" />
   </ItemGroup>
 </Project>
