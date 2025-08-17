@@ -60,6 +60,12 @@ updates:
       day: "saturday"
     open-pull-requests-limit: 10
   - package-ecosystem: "nuget"
+    directory: "myh/HLauncher"
+    schedule:
+      interval: "weekly"
+      day: "saturday"
+    open-pull-requests-limit: 10
+  - package-ecosystem: "nuget"
     directory: "myh/Overview/App"
     schedule:
       interval: "weekly"
