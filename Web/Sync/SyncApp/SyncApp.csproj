@@ -6,7 +6,7 @@
   <ItemGroup>
     <PackageReference Include="FluentFTP" Version="53.0.1" />
     <PackageReference Include="SGrottel.SimpleLog.CSharp" Version="3.3.0" />
-    <PackageReference Include="System.CommandLine" Version="2.0.0-rc.1.25451.107" />
+    <PackageReference Include="System.CommandLine" Version="2.0.3" />
     <PackageReference Include="YamlDotNet" Version="16.3.0" />
   </ItemGroup>
 </Project>
