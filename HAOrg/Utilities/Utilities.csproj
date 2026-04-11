@@ -4,6 +4,6 @@
     <TargetFramework>net10.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="SGrottel.SimpleLog.CSharp" Version="3.3.0" />
+    <PackageReference Include="SGrottel.SimpleLog.CSharp" Version="3.3.2" />
   </ItemGroup>
 </Project>
