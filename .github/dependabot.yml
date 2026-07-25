@@ -132,6 +132,24 @@ updates:
       day: "saturday"
     open-pull-requests-limit: 10
   - package-ecosystem: "nuget"
+    directory: "Web/MyWebDeploy/ClientCli"
+    schedule:
+      interval: "weekly"
+      day: "saturday"
+    open-pull-requests-limit: 10
+  - package-ecosystem: "nuget"
+    directory: "Web/MyWebDeploy/ClientTest"
+    schedule:
+      interval: "weekly"
+      day: "saturday"
+    open-pull-requests-limit: 10
+  - package-ecosystem: "nuget"
+    directory: "Web/MyWebDeploy/EndpointControlCore"
+    schedule:
+      interval: "weekly"
+      day: "saturday"
+    open-pull-requests-limit: 10
+  - package-ecosystem: "nuget"
     directory: "Web/Sync/SyncApp"
     schedule:
       interval: "weekly"
