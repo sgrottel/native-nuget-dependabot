@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Web\MyWebDeploy EndpointControlCore -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentFTP" Version="54.2.0" />
+    <PackageReference Include="SGrottel.SimpleLog.CSharp" Version="3.3.3" />
+  </ItemGroup>
+</Project>
